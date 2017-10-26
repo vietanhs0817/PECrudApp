@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lbl_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="7dp"
+        android:paddingLeft="20dp"
+        android:text="Email"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/lbl_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22sp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="7dp"/>
+    <TextView
+        android:id="@+id/lbl_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="7dp"
+        android:layout_marginBottom="5dp"/>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pe.vietanhs0817.pecrudapp.MainActivity"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_get_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get all user"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            />
+        <Button
+            android:id="@+id/btn_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find"
+            />
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/txt_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            />
+        <Button
+            android:id="@+id/btn_create"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Create"
+            />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/ls_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
